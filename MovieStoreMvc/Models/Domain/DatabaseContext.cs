@@ -9,5 +9,9 @@ namespace MovieStoreMvc.Models.Domain
         {
 
         }
+
+        public DbSet<Genre> Genres { get; set; }
+        public DbSet<MovieGenre> MovieGenres { get; set; }
+        public DbSet<Movie> Movies { get; set; }
     }
 }
